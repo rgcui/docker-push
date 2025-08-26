@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-        skopeo copy --all docker://openjdk:11-jdk docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/openjdk-test:11-jdk
+        skopeo copy --all docker://moby/buildkit:buildx-stable-1 docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/buildkit:buildx-stable-1

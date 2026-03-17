@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-        skopeo copy --all docker://langgenius/dify-api:1.10.1-fix.1 docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/dify-api:1.10.1-fix.1
+        skopeo copy --all docker://python:3.9-slim docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/python:3.9-slim

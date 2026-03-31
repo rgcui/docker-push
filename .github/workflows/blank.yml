@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-        skopeo copy --all docker://python:3.9-slim docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/python:3.9-slim
+        skopeo copy --all docker://maven:3.9-eclipse-temurin-17 docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/maven:3.9-eclipse-temurin-17

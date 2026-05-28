@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-        skopeo copy --all docker://dhi.io/litellm:1-debian13-dev docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/litellm-local:latest
+        skopeo copy --all docker://docker pull litellm/litellm:v1.84.3 docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/litellm-local:v1.84.3

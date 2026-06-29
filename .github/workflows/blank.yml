@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-        skopeo copy --all docker://docker pull litellm/litellm:v1.84.3 docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/litellm-local:v1.84.3
+        skopeo copy --all docker://docker.io/library/eclipse-temurin:21-jdk docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/eclipse-temurin:21-jdk

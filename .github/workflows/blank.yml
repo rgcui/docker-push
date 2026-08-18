@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-        skopeo copy --all docker://eclipse-temurin:17-jre docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/eclipse-temurin:17-jre
+        skopeo copy --all docker://kubemark/kubemark:v1.27.10 docker://registry.cn-hangzhou.aliyuncs.com/open_ai_10/kubemark:v1.27.10
